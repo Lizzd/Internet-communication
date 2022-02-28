@@ -1,0 +1,28 @@
+2020-07-08 14:27:19,500 INFO     === thread nr: 0, seq_nr: 0 ===
+2020-07-08 14:27:19,501 INFO     recv_decorator server: b'DISCOVER_LOBBY'
+2020-07-08 14:27:19,511 INFO     ===  ===
+2020-07-08 14:27:19,512 INFO     send_tcp_message: b'LOBBY 54001\x00' to ('127.0.0.1', 57938)
+2020-07-08 14:27:19,513 INFO     === thread nr: 0, seq_nr: 0 ===
+2020-07-08 14:27:19,513 INFO     recv_decorator server: b'HELLO Player1 BASIC,4_players_mode,gravity,higher_ballSpeed,half_racket,invisibility\x00'
+2020-07-08 14:27:19,514 INFO     ===  ===
+2020-07-08 14:27:19,514 INFO     send_tcp_message: b'WELCOME BASIC,DIMS,1,1,800,600,4_players_mode,DIMS,1,1,800,800,gravity,higher_ballSpeed,half_racket,invisibility\x00' to <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54001), raddr=('127.0.0.1', 51935)>
+2020-07-08 14:27:40,402 INFO     === thread nr: 0, seq_nr: 1 ===
+2020-07-08 14:27:40,402 INFO     recv_decorator server: b'LIST_MATCHES Pong\x00'
+2020-07-08 14:27:40,403 INFO     ===  ===
+2020-07-08 14:27:40,407 INFO     send_tcp_message: b'GAMES Pong \x00' to <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54001), raddr=('127.0.0.1', 51935)>
+2020-07-08 14:28:14,724 INFO     === thread nr: 0, seq_nr: 2 ===
+2020-07-08 14:28:14,732 INFO     recv_decorator server: b'CREATE_MATCH Pong game BASIC\x00'
+2020-07-08 14:28:14,733 INFO     ===  ===
+2020-07-08 14:28:14,733 INFO     send_tcp_message: b'MATCH_CREATED\x00' to <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54001), raddr=('127.0.0.1', 51935)>
+2020-07-08 14:28:16,247 INFO     === thread nr: 0, seq_nr: 3 ===
+2020-07-08 14:28:16,247 INFO     recv_decorator server: b'LIST_GAMES \x00'
+2020-07-08 14:28:16,247 INFO     ===  ===
+2020-07-08 14:28:16,248 INFO     send_tcp_message: b'AVAILABLE_GAMES Pong,Tron\x00' to <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54001), raddr=('127.0.0.1', 51935)>
+2020-07-08 14:28:19,339 INFO     === thread nr: 0, seq_nr: 4 ===
+2020-07-08 14:28:19,339 INFO     recv_decorator server: b'LIST_MATCHES Pong\x00'
+2020-07-08 14:28:19,340 INFO     ===  ===
+2020-07-08 14:28:19,340 INFO     send_tcp_message: b'GAMES Pong game\x00' to <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54001), raddr=('127.0.0.1', 51935)>
+2020-07-08 14:28:19,343 INFO     === thread nr: 0, seq_nr: 5 ===
+2020-07-08 14:28:19,343 INFO     recv_decorator server: b'MATCH_FEATURES game\x00'
+2020-07-08 14:28:19,344 INFO     ===  ===
+2020-07-08 14:28:19,344 INFO     send_tcp_message: b'MATCH Pong game BASIC\x00' to <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54001), raddr=('127.0.0.1', 51935)>

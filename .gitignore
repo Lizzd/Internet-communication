@@ -1,0 +1,20 @@
+*.swp
+*.kdev4
+*.pyc
+~*
+__pycache__
+.spyderworkspace
+.spyderproject
+.ipynb_checkpoints/
+.idea/
+
+# IDE
+.vscode/
+venv
+venv37
+venv38
+
+#Others
+**/log_file
+.DS_Store
+.DS_Store?
