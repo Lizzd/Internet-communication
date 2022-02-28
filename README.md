@@ -1,4 +1,4 @@
-# Internetkommunikation Class Project Group 6 
+# Internetkommunikation Class 
 
 ### Getting started 
 #### Installation 
